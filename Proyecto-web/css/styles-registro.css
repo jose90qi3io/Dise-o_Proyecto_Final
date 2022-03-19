@@ -1,0 +1,160 @@
+body{
+	    margin: 0;
+}
+#general{
+	display: flex;
+}
+/*============ Inicio - Barra de navegacion ================*/
+
+#navegacion{
+
+	float: left;
+	background-color: #182F53;
+	height: 654px;
+	width: 200px
+}
+#btn{
+	background-color: #182F53;
+	color: white;
+	margin-top:10px;
+	width: 200px;
+	height: 60px;
+}
+#navegacion-alineacion{
+	margin-top: 20px;
+}
+#img1{
+	height: 100px;
+	margin-left: 50px;
+	margin-bottom:20px;
+}
+
+.animacion-btn { /*Animacion para todos los botones*/
+	border-color:  #FFA100;
+	color: black;
+	background-image: -webkit-linear-gradient(45deg,  #FFA100 50%, transparent 50%);
+	background-image: linear-gradient(45deg,  #FFA100 50%, transparent 50%);
+	background-position: 100%;
+	background-size: 400%;
+	-webkit-transition: background 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
+}
+.animacion-btn:hover { /*Animacion para todos los botones*/
+	background-position: 0;
+}
+
+/*============ Fin - Barra de navegacion ================*/
+
+
+/*============ Inicio - Cuerpo Registro ================*/
+
+#cuerpo{
+	background-color: #FFA100;
+	height: 650px;
+	width: 100%;
+	overflow: scroll;
+}
+
+#contenido-cuerpo{
+	background-color: white;
+	/*height: 650px;*/
+	width: 950px;
+	margin: auto;
+	margin-top: 10px;
+}
+.registro-personal{
+	display: flex;
+	margin-left: 30px;
+}
+
+.registro{
+margin-right: 55px;
+}
+
+.input{
+	margin-top: 4px;
+	border: 2px solid #d3cccc;
+	border-radius: 9px;
+	padding: 5px;
+	font-size: 87%;	
+}
+table,tr,th{
+    border: 2px solid;
+    text-align: left;
+	font-weight: normal;
+}
+th{
+    padding-left: 18px;
+    padding-right: 18px;
+ }
+#nombre{
+    padding-right: 110px;
+}
+.tabla{
+    margin-left: 29px;
+	margin-right: 23px;
+    justify-content: center;
+}
+
+
+/*============ Inicio - Cuerpo Registro - Oculto ================*/
+
+
+@media (min-width:1481px) {
+
+	#cuerpo{
+		background-color: #FFA100;
+		height:  969px;
+		width: 100%;
+		overflow: scroll;
+	}
+	#navegacion{
+
+		float: left;
+		background-color: #182F53;
+		height: 969px;
+		width: 200px
+	}
+
+	#contenido-cuerpo{
+		background-color: white;
+		height: 837px;
+		width: 1040px;
+		margin: auto;
+		margin-top: 10px;
+		padding-bottom: 50px;
+	}
+	#btn-habitaciones{
+		background-color: #182F53;
+		margin-top: 60px;
+		margin-bottom: 20px;
+		padding: 20px;
+		color: white;
+		border-radius: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
