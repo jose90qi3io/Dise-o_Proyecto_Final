@@ -79,24 +79,45 @@ margin-right: 55px;
 	font-size: 87%;	
 }
 table,tr,th{
-    border: 2px solid;
-    text-align: left;
+	
+   border: 2px solid;
+    text-align: center;
 	font-weight: normal;
 }
 th{
     padding-left: 18px;
     padding-right: 18px;
+
  }
-#nombre{
-    padding-right: 110px;
-}
-.tabla{
+ .encabezado{
+	 
+	 color: white;
+	 background-color: #2d4e83;
+ }
+
+#tabla{
+
+	flex-direction: column;
     margin-left: 29px;
 	margin-right: 23px;
     justify-content: center;
+	
+}
+#btn-informacion-tabla{
+	display: flex;
+	font-weight:normal; 
+	margin-left:30px;
+	background-color:white; 
+	border:0px; 
+	padding:0px
 }
 
-
+#img-flecha{
+	
+	height: 29px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
 /*============ Inicio - Cuerpo Registro - Oculto ================*/
 
 

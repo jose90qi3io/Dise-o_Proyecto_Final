@@ -7,7 +7,7 @@
 	?>
 
 
-	
+	<script src="../js/JavaScript.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/styles-habitaciones.css"> <!-- Conexion HTML con CSS -->
 	<link rel="preconnect" href="https://fonts.googleapis.com"> <!-- google fonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- google fonts -->
@@ -53,7 +53,7 @@
 					<h3 id="contenido-tarjetas">Habitaciones sencillas</h3>
 					<h4 id="contenido-tarjetas" style="font-weight: normal;">Costo por noche $700</h4>
 					<a href="./registro.php">
-						<button class="animacion-btn" id="btn-tarjetas"> ver </button>
+						<button class="animacion-btn" id="btn-tarjetas" method="post" action="./registro.php" name="hbt-s"> ver </button>
 					</a>
 				</div>
 				<div id="hbt">
