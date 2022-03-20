@@ -69,10 +69,11 @@
 						
 						
 					</tr>
-
+				 
 					<?php 
+												
 						
-						$sql="SELECT *  FROM `habitaciones` WHERE `Tipo de habitación` = 'Sencilla'";
+							$sql= "SELECT *  FROM `habitaciones` WHERE `Tipo de habitación` = 'Sencilla'";
 						$result=mysqli_query($coneccion,$sql);
 						
 						while($mostrar=mysqli_fetch_array($result)){
@@ -90,6 +91,7 @@
 					<?php
 					}
 					?>
+					
 				</table>
 
 

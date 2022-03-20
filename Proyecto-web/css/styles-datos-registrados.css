@@ -63,8 +63,36 @@ body{
 	margin: auto;
 	margin-top: 10px;
 }
+#titulo{
+	font-weight: normal;
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom:13px;
+}
 
+#tabla{
 
+	flex-direction: column;
+    margin-left: 29px;
+	margin-right: 23px;
+    justify-content: center;
+}
+.encabezado{
+	 
+	color: white;
+	background-color: #2d4e83;
+}
+table,tr,th{
+	
+	border: 2px solid;
+	 text-align: center;
+	 font-weight: normal;
+ }
+ th{
+	 padding-left: 18px;
+	 padding-right: 18px;
+ 
+  }
 
 @media (min-width:1481px) {
 
