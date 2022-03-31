@@ -10,7 +10,7 @@ body{
 
 	float: left;
 	background-color: #182F53;
-	height: 654px;
+	height: 629px;
 	width: 200px
 }
 #btn{
@@ -50,17 +50,21 @@ body{
 
 #cuerpo{
 	background-color: #FFA100;
-	height: 650px;
+	height: 628px;
 	width: 100%;
 	overflow: scroll;
 }
 
 #contenido-cuerpo{
 	background-color: white;
-	/*height: 650px;*/
-	width: 950px;
+	height: 601px;
+	width: 1065px;
 	margin: auto;
 	margin-top: 10px;
+}
+#alineacion-tabla{
+	width: 1024px;
+	margin-left: 20px;
 }
 .registro-personal{
 	display: flex;
@@ -79,16 +83,16 @@ margin-right: 55px;
 	font-size: 87%;	
 }
 table,tr,th{
-	
-   border: 2px solid;
-    text-align: center;
+
+
+	text-align: center;
 	font-weight: normal;
 }
 th{
-    padding-left: 18px;
-    padding-right: 18px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
 
- }
  .encabezado{
 	 
 	 color: white;
@@ -111,13 +115,59 @@ th{
 	border:0px; 
 	padding:0px
 }
-
+#alineacion-tabla{
+	width: 1024px;
+	margin-left: 20px;
+}
 #img-flecha{
 	
 	height: 29px;
     margin-top: 12px;
     margin-right: 12px;
 }
+
+.tittletables{
+	background: #2d4e83;
+	color: #d3cccc;
+	margin-left: 29px;
+	margin-right: 23px;
+}
+
+.tamañocelda{
+	width: 160px;
+}
+.disponibilidad{
+	background:#FF6868;
+}
+
+.alineacion{
+	float: right;
+	margin-right: 23px;
+}
+
+.buttonedit{
+	width: 85px;
+	height: 37px;
+	/* margin: 10px 0 10px 0; */
+	color: #ffffff;
+	font-weight: bold;
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	outline: 0;
+	background-color: forestgreen;
+	align-content: center;
+}
+
+.buttonedit:hover{
+	background-color: #00C700;
+}
+
 /*============ Inicio - Cuerpo Registro - Oculto ================*/
 
 
@@ -136,7 +186,10 @@ th{
 		height: 969px;
 		width: 200px
 	}
-
+	#alineacion-tabla{
+		width: 998px;
+		margin-left: 20px;
+	}
 	#contenido-cuerpo{
 		background-color: white;
 		height: 837px;

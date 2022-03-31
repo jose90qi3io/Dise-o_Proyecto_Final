@@ -12,7 +12,7 @@ body{
 
 	float: left;
 	background-color: #182F53;
-	height: 650px;
+	height: 629px;
 	width: 200px
 }
 #boton{
@@ -49,17 +49,96 @@ body{
 
 /* Cuerpo*/
 
+.search{
+	width: 150px;
+	height: 30px;
+	font-size: 45%;
+}
+
+.buttonsave{
+	width: 85px;
+	height: 37px;
+	/* margin: 10px 0 10px 0; */
+	color: #ffffff;
+	font-weight: bold;
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	outline: 0;
+	background-color: #2d4e83;
+	align-content: center;
+}
+.buttonsave:hover{
+	background-color: #3E6BB5;
+}
+
+.buttondelete{
+	width: 85px;
+	height: 37px;
+	/* margin: 10px 0 10px 0; */
+	color: #ffffff;
+	font-weight: bold;
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	outline: 0;
+	background-color: #D40000;
+	align-content: center;
+}
+
+.buttondelete:hover{
+	background-color: #FB0000;
+}
+
+.buttonupdate{
+
+	width: 85px;
+	height: 37px;
+	/* margin: 10px 0 10px 0; */
+	color: #ffffff;
+	font-weight: bold;
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	outline: 0;
+	background-color: forestgreen;
+	align-content: center;
+}
+
+.buttonupdate:hover{
+	background-color: #00C700;
+}
+
+.datatable{
+	font-size: 95%;
+}
+
 #cuerpo{
 	background-color: #FFA100;
-	height: 650px;
+	height: 628px;
 	width: 100%;
 	overflow: scroll;
 }
 
 #contenido-cuerpo{
 	background-color: white;
-	height: 650px;
-	width: 950px;
+	height: 601px;
+	width: 1065px;
 	margin: auto;
 	margin-top: 10px;
 }
@@ -70,6 +149,16 @@ body{
 	margin-bottom:13px;
 }
 
+.tittleback{
+	background: #2d4e83;
+	color: #d3cccc;
+	margin-left: 29px;
+	margin-right: 23px;
+}
+#alineacion-tabla{
+width: 1024px;
+margin-left: 20px;
+}
 #tabla{
 
 	flex-direction: column;
@@ -84,7 +173,7 @@ body{
 }
 table,tr,th{
 	
-	border: 2px solid;
+
 	 text-align: center;
 	 font-weight: normal;
  }
@@ -109,6 +198,10 @@ table,tr,th{
 		background-color: #182F53;
 		height: 969px;
 		width: 200px
+	}
+	#alineacion-tabla{
+		width: 998px;
+		margin-left: 20px;
 	}
 
 	#contenido-cuerpo {
